@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+
+public class SumTwoNumbers {
+
+	public static void main(String[] args) {
+Scanner inp = new Scanner(System.inp);
+System.out.println(inp);
+
+	}
+
+}

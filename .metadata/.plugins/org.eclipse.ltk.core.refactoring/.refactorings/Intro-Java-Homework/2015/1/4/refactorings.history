@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;pdf.java&apos; to &apos;GenerateDeckOfCards.java&apos;&#x0A;- Original project: &apos;Intro-Java-Homework&apos;&#x0A;- Original element: &apos;pdf.java&apos;&#x0A;- Renamed element: &apos;GenerateDeckOfCards.java&apos;" description="Rename compilation unit &apos;pdf.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{pdf.java" name="GenerateDeckOfCards.java" references="false" stamp="1421659220859" version="1.0"/>
+</session>

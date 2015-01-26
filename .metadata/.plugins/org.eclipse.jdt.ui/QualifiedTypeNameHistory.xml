@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.time.temporal.TemporalField"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
+<fullyQualifiedTypeName name="DeckOfCards"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.pdf.PatternColor"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.pdf.internal.PdfA1Checker"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.DocumentException"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.Document"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.pdf.BaseFont"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.BaseColor"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.Font"/>
+<fullyQualifiedTypeName name="javax.print.DocFlavor.INPUT_STREAM"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.ibm.icu.impl.CharTrie"/>
+<fullyQualifiedTypeName name="com.ibm.icu.text.Replaceable"/>
+<fullyQualifiedTypeName name="com.ibm.icu.impl.ReplaceableUCharacterIterator"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.pdf.PdfWriter"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.pdf.PdfPTable"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.pdf.PdfPCell"/>
+<fullyQualifiedTypeName name="javax.swing.border.Border"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.pdf.spatial.units.Square"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.Rectangle"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.Paragraph"/>
+</qualifiedTypeNameHistroy>

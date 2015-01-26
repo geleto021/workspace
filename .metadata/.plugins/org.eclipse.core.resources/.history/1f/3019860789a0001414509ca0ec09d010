@@ -1,0 +1,40 @@
+import com.itextpdf.text.Font;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Scanner;
+
+import javax.print.DocFlavor.INPUT_STREAM;
+
+import com.itextpdf.text.BaseColor;
+import com.itextpdf.text.Document;
+import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.pdf.BaseFont;
+import com.itextpdf.text.pdf.PdfWriter;
+
+
+public class SecondPdf {
+
+	
+
+	public static void main(String[] args) throws DocumentException, IOException {
+
+		Document document = new Document();
+		PdfWriter.getInstance(document,new FileOutputStream("DeckOFCards2.pdf"));
+		Scanner in = new Scanner(System.in);
+		String input = in.nextLine();
+		System.out.println(input);
+		char[] ArrayOfChar = input.toCharArray();
+		System.out.printf("%c\n",ArrayOfChar +"ArrayOfChar");
+		//char [] ArrayOne = {'Zdrasti kak si'}
+		
+		
+		BaseFont OsnovenShrift = BaseFont.createFont("Arial Regular.ttf",BaseFont.IDENTITY_H,true);
+		Font fontBlack = new Font(OsnovenShrift,25f,0,BaseColor.BLACK);
+		 Font blackFont = new Font(OsnovenShrift, 20f, 0, BaseColor.BLACK);
+		 Font RedFont =new Font(OsnovenShrift,22f,0, BaseColor.RED);
+		 
+		document.open();
+	}
+
+}

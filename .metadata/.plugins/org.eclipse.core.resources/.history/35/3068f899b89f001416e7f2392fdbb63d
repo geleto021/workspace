@@ -1,0 +1,71 @@
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.util.Arrays;
+
+import com.itextpdf.text.Document;
+import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.Paragraph;
+import com.itextpdf.text.pdf.PatternColor;
+import com.itextpdf.text.pdf.PdfWriter;
+import com.itextpdf.text.pdf.internal.PdfA1Checker;
+
+
+public class DeckOfCards {
+
+	public static void main(String[] args) {
+		
+		String [] cards =	{"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
+				String [] sighn = {"\u2665", "\u2666", "\u2660", "\u2663"};
+		
+//				String Heart = '\u2665';
+//				String Diamond = "\u2666";
+//				String spade = "\u2660";
+//				String club = "\u2663";
+				//System.out.println(Heart);
+//		   		 String [] symbols = {"\u2665", "\u2666", "\u2660", "\u2663"};
+//		   		 Arrays.asList(cards).stream().forEach(s ->System.out.println(s));	
+//		   		 System.out.println(Arrays.deepToString(cards));//.replaceAll("],", "],\r\n"));
+		   
+//			   System.out.println(Arrays.toString(cards));
+			   
+			   
+		   
+		for (int i = 0; i < cards.length; i++) {
+			for (int j = 0; j < sighn.length; j++) {
+				System.out.printf((cards[i]+sighn[j]+" "));
+				
+				
+			}
+			
+		} 
+		Document document = new Document();
+
+        try {
+            PdfWriter.getInstance(document,
+                new FileOutputStream("HelloWorld.pdf"));
+
+            document.open();
+            document.add(new Paragraph("A Hello World PDF document."));
+            document.close(); // no need to close PDFwriter?
+
+        } catch (DocumentException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+			
+		
+		
+		
+	//	Document document = new Document();
+	//	PdfWriter.getInstance(document, new OutputStream("DeckOfCards") {
+			
+			
+				
+			}
+
+	}
+
+

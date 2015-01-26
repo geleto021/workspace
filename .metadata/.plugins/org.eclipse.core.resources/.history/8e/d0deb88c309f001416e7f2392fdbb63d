@@ -1,0 +1,10 @@
+import com.itextpdf.text.pdf.PatternColor;
+
+
+public class DeckOfCards {
+
+	public static void main(String[] args) {
+		String [] cards = new A, K, Q, J, 10, 9, 8,};
+	}
+
+}

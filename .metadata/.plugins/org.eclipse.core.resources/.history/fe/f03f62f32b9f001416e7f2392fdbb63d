@@ -1,0 +1,18 @@
+
+public class DeckOfCards {
+
+	public static void main(String[] args) {
+		
+		 String spade = "\u2660";
+		 String spade = '\u1F0B3';
+		 
+		 String valentine = "\u2665";
+		 String hollowHeart = "\u2661";
+		 String hollowDiamond = "\u2662";
+		 String spade = "\u2660";
+		 String club = "\u2663"; 
+		 System.out.println(valentine);
+		 System.out.println(club);
+	}
+
+}

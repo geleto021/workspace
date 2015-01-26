@@ -1,0 +1,26 @@
+import java.util.Arrays;
+
+import com.itextpdf.text.pdf.PatternColor;
+
+
+public class DeckOfCards {
+
+	public static void main(String[] args) {
+		
+		String [][] cards ={
+				{"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" },
+				{"\u2665", "\u2666", "\u2660", "\u2663"},
+		};
+		  char Heart = '\u2665';
+		    String Diamond = "\u2666";
+		    String spade = "\u2660";
+		    String club = "\u2663";
+		    //System.out.println(Heart);
+		    String [] symbols = {"\u2665", "\u2666", "\u2660", "\u2663"};
+		    System.out.println(Arrays.asList(cards));
+		    
+		   
+		
+	}
+
+}

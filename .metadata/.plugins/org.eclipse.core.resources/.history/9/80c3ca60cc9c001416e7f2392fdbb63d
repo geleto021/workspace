@@ -1,0 +1,32 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Scanner;
+
+
+public class SortArrayOfStrings {
+	public static void main(String[] args) {
+		
+	
+	Scanner input = new Scanner(System.in);
+	int InputInt = input.nextInt();
+	
+	String[] text = new String[InputInt];
+	int i = 0;
+	
+	Arrays.sort(args);
+	while (text.length<InputInt) {
+		Scanner inp = new Scanner(System.in);
+		text[i] = inp.nextLine();
+		i++;
+		System.out.println(args[i]); 
+	}
+	
+   
+
+	}
+	
+	
+	
+}
+//Strings[] inp = new Strings[in];
+//Arrays.sort(data);

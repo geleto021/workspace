@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+
+public class SortArrayOfStrings {
+	
+	Scanner inp = new Scanner(System.in);
+	
+	
+	Strings[] inp = new Strings[in];
+			Arrays.sort(data);
+}

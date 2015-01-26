@@ -1,0 +1,16 @@
+    import javax.swing.*;  
+       
+    class Suits extends JFrame {  
+      String suits = "\u2665 \u2666 \u2663 \u2660";  
+      Suits() {  
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
+        JLabel label = new JLabel(suits);  
+        add(label);  
+        pack();  
+        setVisible(true);  
+      }  
+       
+      public static void main(String[] args) {  
+        Suits s = new Suits();  
+      }  
+    }  
